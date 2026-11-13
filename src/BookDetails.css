@@ -1,0 +1,104 @@
+.book-details-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.back-btn {
+  background: #3498db;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  font-size: 0.95rem;
+}
+
+.back-btn:hover {
+  background: #2980b9;
+}
+
+.book-details-card {
+  display: flex;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  overflow: hidden;
+}
+
+.details-image-container {
+  position: relative;
+  width: 300px;
+  min-height: 350px;
+  background: #f8f9fa;
+}
+
+.details-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.details-rating {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background: rgba(0, 0, 0, 0.75);
+  color: #f1c40f;
+  padding: 5px 10px;
+  border-radius: 15px;
+  font-weight: bold;
+}
+
+.details-info {
+background-color: #a5b374;
+  padding: 30px;
+  flex-grow: 1;
+}
+
+.details-title {
+  font-size: 2rem;
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+.details-author {
+  color: #7f8c8d;
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+}
+
+.details-author span {
+  color: #2c3e50;
+  font-weight: 600;
+}
+
+.meta-tags {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.tag {
+  background: #eef2f3;
+  color: #34495e;
+  padding: 6px 14px;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.details-desc {
+  color: #555;
+  line-height: 1.6;
+  font-size: 1rem;
+}
+
+.loading-text {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 1.2rem;
+  color: #666;
+}
